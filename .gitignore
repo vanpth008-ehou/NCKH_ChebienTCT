@@ -1,0 +1,39 @@
+# Local research material: never track these directories.
+local_workspace/
+local_data/
+backups/
+
+# Credentials and local configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Full texts, real spreadsheets/databases, reports, and binary archives.
+# Deliberate public artifacts need a separate review before changing these rules.
+*.pdf
+*.xlsx
+*.xls
+*.docx
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+*.7z
+
+# Future Python runtime and generated files.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.log
+
+# Editor and OS files.
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
